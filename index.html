@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+  <header class="app-header">
+    <div class="container d-flex align-items-center justify-content-between py-3">
+      <h1 class="app-title">Quiz App</h1>
+      <div class="d-flex gap-2 align-items-center">
+        <button id="theme-toggle" class="btn btn-sm btn-outline-secondary">Toggle Theme</button>
+      </div>
+    </div>
+  </header>
+
+  <main class="container py-5">
+    <div id="quiz-container" class="quiz-card shadow-lg p-4">
+      <!-- Content will be injected by JS -->
+    </div>
+  </main>
+
+  <footer class="app-footer text-center py-3 small text-muted">Built by Snehasish • Powered by Open Trivia DB • Designed with care</footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
